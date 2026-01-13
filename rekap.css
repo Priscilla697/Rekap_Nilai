@@ -1,0 +1,203 @@
+.title{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nama {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.tabel {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section {
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 20px;
+  text-align: center;
+  min-height: 300px;
+}
+
+#tombol {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#tombol:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.tugas {
+    background-color: black;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3 ease-in-out;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tugas.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.tugas-inner {
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+
+.tugas-inner:hover {
+    resize: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+#tutupTugas {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#tutupTugas:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#tombol2 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#tombol2:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.profil {
+  background-color: black;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3 ease-in-out;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.profil.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.profil-inner {
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+
+#tutupProfil {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+#tutupProfil:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.foto {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.tulisan {
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.detail {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.detail:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
